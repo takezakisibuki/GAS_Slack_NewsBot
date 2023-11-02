@@ -60,7 +60,7 @@
 
  function postSlackbot(message) {
   // SlackAPIで登録したボットのトークンを設定する
-  let token = "xoxb-5560487462176-5560623380224-261lq0UONyDzZlUPBAhcG6UK";
+  let token = "token";
   // ライブラリから導入したSlackAppを定義し、トークンを設定する
   let slackApp = SlackApp.create(token);
   // Slackボットがメッセージを投稿するチャンネルを定義する
